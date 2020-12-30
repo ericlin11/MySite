@@ -5,16 +5,18 @@ body{
 }
 h1 {
     color: #5b9b9b;
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin: 0 auto 0 auto;
     line-height: 2;
 }
 h2{
+    font-size: 2rem;
     color: #457575;
     margin: 0 auto 0 auto;
     font-weight: normal;
 }
 h3{
+    font-size: 1.5rem;
     color: #457575;
 }
 a{
@@ -59,6 +61,12 @@ p{
 .profile-picture{
     margin: 2rem auto 2rem auto;
 }
+.introduction{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 2;
+}
 .skills{
     margin-top: 2rem;
     margin-bottom: 0;
@@ -75,9 +83,12 @@ p{
 }
 .skill-row{
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 100px auto 150px auto;
     text-align: left;
     line-height: 2;
+}
+.contact-me{
+    margin-top: 2rem;
 }
 .BUTTON_RWQ {
     background: #3D94F6;
@@ -128,7 +139,7 @@ p{
     background-color: rgb(49, 80, 49);
     padding-top: 2rem;
     color:  #cae4db;
-    text-shadow: 0 0 10px #000000;
+    text-shadow: 0 0 4px #000000;
 }
 .copyright{
     font-size: 14px;
